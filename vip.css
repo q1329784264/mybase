@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.top {
+    padding: 0 300px;
+    font-size: 10px;
+    display: flex;
+    background: whitesmoke;
+    height: 25px;
+    line-height: 25px;
+}
+
+.seat {
+    margin-right: 250px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.top_ul {
+    display: flex;
+    width: 100%;
+    color: rgb(230, 230, 230);
+}
+
+.top_ul li {
+    padding: 0 10px;
+    min-width: 30px;
+
+}
+
+.top_ul li a {
+    color: rgba(105, 105, 105, 0.918);
+}
+
+.top_ul li a:hover {
+    color: rgb(252, 18, 135);
+}
+
+.L_C {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+
+}
+
+.logo span {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: rgba(105, 105, 105, 0.918);
+
+}
+
+.logo span b {
+    font-size: 16px;
+    color: rgb(252, 18, 135);
+}
+
+.search {
+    width: 100%;
+    padding: 35px 0 0 130px;
+}
+
+.sear {
+    display: inline-block;
+    border: 1px solid rgb(240, 55, 147);
+    border-right: 0px;
+    background: white;
+}
+
+.sear input {
+    float: left;
+
+}
+
+.so {
+    width: 310px;
+    height: 25px;
+    text-indent: 5px;
+    outline: none;
+    border: 0px;
+}
+
+.so2 {
+    width: 50px;
+    height: 25px;
+    background: rgb(240, 55, 147);
+    border: 0px;
+    cursor: pointer;
+}
+
+.scar_ul {
+    display: flex;
+}
+
+.scar_ul li {
+    color: silver;
+    min-width: 40px;
+    font-size: 10px;
+    border-right: 1px solid silver;
+    min-width: 40px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+#scar_ul_l1 {
+    padding-left: 0px;
+}
+
+#scar_ul_l2 {
+    border: 0px;
+}
+
+.search p {
+    margin-right: 10px;
+    text-indent: 10px;
+}
+
+.ScroLL {
+    width: 1000px;
+    margin: auto;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.scroll {
+    width: 1000px;
+    display: flex;
+    height: 40px;
+    background: white;
+    /* transition: 1s; */
+}
+
+#sc_fx {
+    height: 40px;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    transition: 1s;
+    overflow: hidden;
+    border-bottom: 1px solid  rgb(252, 18, 135);
+}
+
+.scr_class {
+    width: 150px;
+    min-height: 40px;
+    background: rgb(245, 52, 148);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+
+}
+
+.dao {
+    display: flex;
+    font-size: 13px;
+}
+
+.dao li {
+    min-width: 30px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.dao h4 {
+    color: rgb(252, 18, 135);
+}
+
+.dao a {
+    color: black;
+}
+
+.dao a:hover {
+    color: rgb(252, 18, 135);
+}
+
+.show_bg {
+    width: 100%;
+    height: 410px;
+    background-image: url("./Img/flower.jpg");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+
+.show_bg img {
+    width: 1520px;
+}
+
+.show_box {
+    border: 1px solid rgba(192, 192, 192, 0.507);
+    width: 1000px;
+    height: 389px;
+    margin: auto;
+    box-sizing: border-box;
+    background: white;
+    padding: 10px;
+    padding-top: 355px;
+    position: relative;
+}
+
+.show_box img {
+    width: 980px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+
+.show_box span {
+    display: inline-block;
+    width: 49.6%;
+    height: 15px;
+    line-height: 15px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.show_box_s1 {
+    border-right: 1px solid rgb(207, 198, 198);
+    text-align: right;
+    padding-right: 40px;
+}
+
+.hr {
+    position: absolute;
+    bottom: -1px;
+    height: 2px;
+    width: 200px;
+    background: rgb(252, 18, 135);
+    left: 295px;
+    transition: 2s;
+}
+
+.box_l,
+.box_r {
+    width: 0px;
+    height: 60px;
+    background: rgba(0, 0, 0, .2);
+    position: absolute;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    top: 41%;
+    display: none;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.box_l {
+    left: 10px;
+}
+
+.box_r {
+    right: 8px;
+}
+
+.box_l:hover {
+    background: rgba(0, 0, 0, .4);
+}
+
+.box_r:hover {
+    background: rgba(0, 0, 0, .4);
+}
+
+.br {
+    height: 2000px;
+}
+.Every_day{
+    width: 1000px;
+    margin: 30px auto;
+}
+.Every_day img{
+    width: 100%;
+    margin: auto;
+}
+.Every_show{
+    width: 997px;
+    height: 156px;
+    margin: auto;
+    background: bisque;
+    overflow: hidden;
+    position: relative;
+}
+.Every_show_ul{
+    display: flex;
+    transition: 3s;
+    position: absolute;
+    left: 0;
+}
+.Every_show_ul li{
+    width: 333.33px;
+}
+.Every_show_ul li img{
+    width: 333.33px;
+}
+.Every_show_l,.Every_show_r{
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+    top: 0;
+    font-size: 52px;
+    line-height: 156px;
+    text-align: left;
+    overflow: hidden;
+    cursor: pointer;
+    color: rgb(211, 198, 203);
+}
+.Every_show_r{
+    right: 0;
+}
+.Every_show_r:hover{
+    color: palevioletred;
+    background: rgba(0, 0, 0, .4);
+}
+.Every_show_l:hover{
+    color: palevioletred;
+    background: rgba(0, 0, 0, .4);
+}
